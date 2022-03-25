@@ -13,28 +13,32 @@ body {
 
 .intro {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     margin-left: 45px;
     margin-top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro_text {
+    text-align: left;
 }
 
 .intro h1 {
     font-size: 64px;
-    line-height: 1 em;
+    max-width: 350px;
+    line-height: 1em;
     color: #073763;
     text-shadow: 3px 3px 0 #a6aedd;
     font-weight: 200;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: left;
+    margin: 0 0 25px 0;
 }
 
 .intro h2 {
     font-size: 20px;
     font-weight: 200;
-    line-height: 1 em;
+    line-height: 1em;
     color: #073763;
     padding: 0;
     margin: 0;
@@ -42,6 +46,16 @@ body {
     justify-content: left;
 }
 
-#p-tile {
-    text-align: center;
+.p-tile {
+    margin-left: 45px;
 }
+
+#about {
+    margin-left: 45px;
+}
+
+.image {
+    width: 100px;
+    position: relative;
+}
+
